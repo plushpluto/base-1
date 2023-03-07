@@ -11,6 +11,10 @@ from   sys import exit
 from apps.config import config_dict
 from apps import create_app, db
 
+os.environ['FLASK_APP'] = 'run.py'
+os.environ['FLASK_ENV'] = 'development'
+
+
 # WARNING: Don't run with debug turned on in production!
 DEBUG = True
 
