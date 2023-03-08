@@ -1,0 +1,7 @@
+{
+	"buildCommand": "flask run",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "apps/" }
+  ]
+}
+
